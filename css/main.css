@@ -1,0 +1,118 @@
+.chart-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.filter-btn {
+  float: left;
+  padding: 10px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  background: transparent;
+}
+.filter-btn:hover{
+  border: 2px solid #a6cff2;
+}
+.filter-active {
+  border: 2px solid #a6cff2; 
+}
+#availableType span {
+  border-bottom: 3px solid green;
+}
+#unavailableType span {
+  border-bottom: 3px solid red;
+}
+#unknownType span {
+  border-bottom: 3px solid #808080;
+}
+#allType span {
+  border-bottom: 3px solid #a6cff2;
+}
+
+.row-inline {
+  display: inline;
+}
+.time-filter {
+  float:right;
+}
+.filter-container {
+  padding: 15px 15px 15px 150px;
+}
+
+
+/* chart - svg */
+.chart {
+  shape-rendering: crispEdges;
+}
+.mini text {
+  font: 9px sans-serif; 
+}
+.main text {
+  font: 12px sans-serif;  
+}
+.month text {
+  text-anchor: start;
+}
+.todayLine {
+  stroke: blue;
+  stroke-width: 1.5;
+}
+.axis line, .axis path {
+  stroke: gray;
+  fill: gray;
+}
+.miniItem {
+  stroke-width: 6;  
+}
+.brush .extent {
+  stroke: gray;
+  fill: blue;
+  fill-opacity: .165;
+}
+
+.availableType_rect {
+  stroke: green;
+  fill: green;
+}
+.unavailableType_rect {
+  stroke: red;
+  fill: red;
+}
+.unknownType_rect {
+  stroke: gray;
+  fill: gray;
+}
+.laneText {
+  word-wrap: break-word;
+}
+/* END chart - svg */
+
+#tag {
+  color: black;
+  background: orange;
+  width: 150px;
+  position: absolute;
+  display: none;
+  padding:3px 6px;
+  margin-left: -80px;
+  font-size: 11px;
+}
+#tag:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+  width: 0;
+  border-width: 10px;
+  border-bottom-color: orange;
+  top: -20px;
+}
+
+.rect-hover {
+  stroke:#a6cff2;
+  stroke-width: 3px;
+}
