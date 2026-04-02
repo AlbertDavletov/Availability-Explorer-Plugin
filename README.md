@@ -4,6 +4,8 @@ Interactive data visualization component for analyzing system availability over 
 
 Originally built for production use in Azure-based systems and used for 6+ years to analyze service uptime, incidents, and system health.
 
+Used to analyze availability and incidents across distributed systems (e.g., services, virtual machines).
+
 ---
 
 ## 🚀 Key Features
@@ -18,6 +20,8 @@ Originally built for production use in Azure-based systems and used for 6+ years
 ## 🖼 Demo
 
 ![Availability Explorer Demo](./images/demo.gif)
+
+Example: zooming into a time range to analyze availability and incidents across multiple systems.
 
 Or try it here:  
 👉 https://jsfiddle.net/Davletov/6sdu2gco/show
